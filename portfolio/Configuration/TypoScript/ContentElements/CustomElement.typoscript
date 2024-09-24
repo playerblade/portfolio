@@ -1,0 +1,8 @@
+tt_content.custom_element =< lib.contentElement
+tt_content.custom_element {
+    templateName = CustomElement
+
+    settings {
+        defaultHeaderType = 0
+    }
+}

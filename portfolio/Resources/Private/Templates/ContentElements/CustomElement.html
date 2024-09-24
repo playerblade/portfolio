@@ -1,0 +1,10 @@
+<f:layout name="Default"/>
+<f:section name="Main">
+    <div class="custom-element">
+        <h1>{data.header}</h1>
+        <p>{data.bodytext}</p>
+        <f:if condition="{data.image}">
+            <f:image src="{data.image}" alt="Image" />
+        </f:if>
+    </div>
+</f:section>

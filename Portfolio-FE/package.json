@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-fe",
+  "version": "1.0.0",
+  "scripts": {
+    "build-css": "sass scss/index.scss css/main.css",
+    "watch-css": "sass --watch scss/index.scss css/main.css",
+    "start": "concurrently \"npm run watch-css\" \"nodemon -e html,css,js --exec \\\"live-server --port=3000 --no-browser --watch=index.html,css/main.css,js/*.js\\\"\""
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.13",
+    "sass": "^1.45.0"
+  }
+}

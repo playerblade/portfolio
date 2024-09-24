@@ -1,0 +1,23 @@
+{
+    "name": "proweler-asap-sa/portfolio",
+    "type": "typo3-cms-extension",
+    "description": "Personal Portfolio",
+    "homepage": "https://prowler-asap.com",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^12.4",
+        "typo3/cms-rte-ckeditor": "^12.4",
+        "typo3/cms-fluid-styled-content": "^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProwelerAsapSa\\Portfolio\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "portfolio"
+        }
+    }
+}

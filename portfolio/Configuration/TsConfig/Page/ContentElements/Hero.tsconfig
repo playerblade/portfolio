@@ -1,0 +1,14 @@
+mod.wizards.newContentElement.wizardItems.customCategory {
+    header = Portfolio Elements
+    elements {
+        another_custom_element {
+            iconIdentifier = content-image
+            title = Another Custom Element
+            description = Another Custom Element Description
+            tt_content_defValues {
+                CType = another_custom_element
+            }
+        }
+    }
+    show := addToList(another_custom_element)
+}
